@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site Web Minecraft</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Accueil</a></li>
+          <li><a href="#">Téléchargements</a></li>
+          <li><a href="#">Communauté</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="banner">
+      <h1>Bienvenue sur notre site web Minecraft</h1>
+      <form method="post" action="/install-server">
+        <input type="submit" class="button" value="Créer votre Serveur">
+      </form>
+      <form method="post" action="/launch-server">
+        <input type="submit" class="button" value="lancer votre Serveur">
+      </form>
+    </section>
+    <section id="features">
+      <h2>Fonctionnalités</h2>
+      <ul>
+        <li>
+          <img src="/static/carte.jpg" alt="Icon 1">
+          <h3>Exploration</h3>
+          <p>Explorez un monde infini rempli de surprises et de dangers.</p>
+        </li>
+        <li>
+          <img src="/static/craft.jpg" alt="Icon 2">
+          <h3>Crafting</h3>
+          <p>Utilisez les ressources que vous collectez pour fabriquer des outils, des armes et des abris.</p>
+        </li>
+        <li>
+          <img src="/static/multi.jpg" alt="Icon 3">
+          <h3>Multiplayer</h3>
+          <p>Jouez avec vos amis en ligne et construisez ensemble.</p>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <p>Tous droits réservés © 2023 Site Web Minecraft</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
